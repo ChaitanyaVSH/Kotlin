@@ -108,8 +108,6 @@ println(sum)
 val actualSum = number1!!.toInt() + number2!!.toInt();
 ```
 
----
-
 Instead, we can actually do null safe when accepting the input as below.
 ```
 val number3 = readln() ?: "0"
@@ -117,4 +115,31 @@ val number4 = readln() ?: "0"
 
 val sum2 = number3.toInt() + number4.toInt();
 println(sum2);
+```
+
+---
+
+Accessing the SAFE way
+
+```
+#1 way
+
+val b: String? = "Kotlin"
+if (b != null && b.length > 0) {
+    print("String of length ${b.length}")
+} else {
+    print("Empty string")
+}
+```
+
+```
+#2 way
+
+val a = "Kotlin"
+val b: String? = null
+println(b?.length) // Safe call
+println(a?.length) // Unnecessary safe call
+
+This returns b.length if b is not null, and null otherwise.
+
 ```
