@@ -13,8 +13,8 @@ Syntax
 var/val name: TYPE = VALUE
 var x: Int =3;
 val x: Int =3;
-var name: string = "Chaitanya";
-TYPE can be Int, string etc
+var name: String = "Chaitanya";
+TYPE can be Int, String etc
 ```
 We do not need to explicitly specify the type
 
@@ -43,3 +43,11 @@ Double is more precise than float and hence occupies more space, if we do not ne
 ## Logical and Comparison operations
 
 && || = == != !(expression)
+
+
+## Strings
+* `val stringName: String = "Chaitanya is Immutable";`
+* `uppercase()`
+* `length`
+* `equals(string)`
+* `get(index)`

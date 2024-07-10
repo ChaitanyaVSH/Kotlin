@@ -37,4 +37,15 @@ fun main() {
     println(amIAdultOrProgrammer);
     println(amIAdultProgrammerTwo);
 
+//  Strings
+    val stringName: String = "Chaitanya is Immutable";
+    println(stringName);
+    println(stringName.toUpperCase()); // Deprecated
+    println(stringName.uppercase());
+    println(stringName.length);
+    println(stringName.equals("Chaitanya is Immutable"));
+    println(stringName.get(7));
+    println(stringName[7]);
+
+
 }
