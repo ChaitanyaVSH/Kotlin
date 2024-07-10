@@ -51,3 +51,40 @@ Double is more precise than float and hence occupies more space, if we do not ne
 * `length`
 * `equals(string)`
 * `get(index)`
+
+## Conditional programming
+
+If condition
+```
+if(x == 2) {
+    println("x is 2");
+}
+```
+
+Else if condition
+
+```
+if(x == 2) {
+    println("x is 2");
+} else if (x > 2) {
+    println("x is greater than 2");
+}
+
+```
+
+Else condition
+
+```
+if(x == 2) {
+    println("x is 2");
+} else if (x > 2) {
+    println("x is greater than 2");
+} else {
+    println("x is not found");
+}
+```
+
+Using if else as `expression`
+```
+var y = if(x ==2) 2 else 3;
+```
