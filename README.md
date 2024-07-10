@@ -89,6 +89,30 @@ Using if else as `expression`
 var y = if(x ==2) 2 else 3;
 ```
 
+---
+
+`when` expression
+
+This is useful when all the conditions depend on same variable or expression.
+
+```
+when(name) {
+    "Sun" -> print("Sun is a Star")
+    "Moon" -> print("Moon is a Satellite")
+    "Earth" -> print("Earth is a planet")
+    else -> print("I don't know anything about it")
+}
+
+when(num) {
+    in 1..3 -> print("Spring season")
+    in 4..6 -> print("Summer season")
+    in 7..8 -> print("Rainy season")
+    in 9..10 -> print("Autumn season")
+    in 11..12 -> print("Winter season")
+    !in 1..12 -> print("Enter valid month of year")
+}
+```
+
 ## Null values && NULL SAFETY
 We can assign null value to a variable in kotlin, but
 if we do this in java and access it we get NPE. Where as in
@@ -160,3 +184,31 @@ Immutable vs Mutable
 Adding a new item in the list
 
 * mutableList.add(new item)
+
+
+## Loops
+
+While loop
+```
+while(counter < shoppingList.size) {
+    println(shoppingList[counter]);
+    ++counter;
+}
+```
+
+for loop => Iterator
+```
+for (item in shoppingList) {
+    println(item);
+}
+
+```
+
+for loop => Range
+```
+for (i in 0..shoppingList.size) {
+    println(shoppingList[i]);
+}
+// Inclusive of both the range values
+
+```
