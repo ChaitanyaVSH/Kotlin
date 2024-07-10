@@ -39,3 +39,7 @@ Double is more precise than float and hence occupies more space, if we do not ne
 3/4 = 0 as kotlin ignores the decimal part of the division
 3f/4f = 0.75, to get the decimal point we need to specify f
 ```
+
+## Logical and Comparison operations
+
+&& || = == != !(expression)

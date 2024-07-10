@@ -17,7 +17,7 @@ fun main() {
     println("the value of lovePizza is $lovePizza");
     println("the value of iAmLetter is $iAmLetter");
 
-//    Arithmetic operations
+//  Arithmetic operations
     val x = 3 + 4;
     println(x)
 
@@ -26,4 +26,15 @@ fun main() {
 
     val z = 10%3;
     println(z);
+
+//  Logical and Comparison operations
+    val amIAdult = true;
+    val amIProgrammer = true;
+    val amIAdultProgrammer = amIAdult && amIProgrammer;
+    val amIAdultOrProgrammer = amIAdult || amIProgrammer;
+    val amIAdultProgrammerTwo = amIAdult == amIProgrammer; // checks the value.
+    println(amIAdultProgrammer);
+    println(amIAdultOrProgrammer);
+    println(amIAdultProgrammerTwo);
+
 }
