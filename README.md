@@ -143,3 +143,20 @@ println(a?.length) // Unnecessary safe call
 This returns b.length if b is not null, and null otherwise.
 
 ```
+
+## Lists
+Syntax
+```
+var test = listOf<type>("items", "items")
+test[0] ==> OK
+test[2] ==> ArrayIndexOutOfBound exception
+```
+
+Immutable vs Mutable
+
+* listOf()
+* mutableListOf()
+
+Adding a new item in the list
+
+* mutableList.add(new item)
