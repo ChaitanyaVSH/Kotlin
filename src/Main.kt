@@ -16,4 +16,14 @@ fun main() {
     println("the value of loveVegetables is $loveVegetables");
     println("the value of lovePizza is $lovePizza");
     println("the value of iAmLetter is $iAmLetter");
+
+//    Arithmetic operations
+    val x = 3 + 4;
+    println(x)
+
+    val y = 3f/4f;
+    println(y);
+
+    val z = 10%3;
+    println(z);
 }

@@ -32,3 +32,10 @@ Double is more precise than float and hence occupies more space, if we do not ne
 1. Long = 3L
 2. Double = 3.33
 3. Float = 3.33f
+
+
+## Arithmetic operations
+```dtd
+3/4 = 0 as kotlin ignores the decimal part of the division
+3f/4f = 0.75, to get the decimal point we need to specify f
+```
