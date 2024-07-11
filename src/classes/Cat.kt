@@ -9,5 +9,9 @@ class Cat(name: String, age: Int): Animal(name, age) {
 
     fun shout() {
         println("meow meow");
+    }
+
+    override fun makeSound() {
+        println("Meow Meow Meow");
     };
 };

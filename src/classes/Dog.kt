@@ -9,5 +9,9 @@ class Dog(name: String, age: Int): Animal(name, age) {
 
     fun bark() {
         println("Bow bow bow");
+    }
+
+    override fun makeSound() {
+        println("Bow Bow Bow");
     };
 };

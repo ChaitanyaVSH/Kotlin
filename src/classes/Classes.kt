@@ -8,4 +8,7 @@ fun main() {
     val cat = Cat("Mickey", 5);
     println("Cat name is ${cat.getName()} and age is ${cat.getAge()}");
     println(cat.shout());
+
+    // Below instance creation is not possible as it abstract class.
+    // val animal = Animal("t", 3);
 };

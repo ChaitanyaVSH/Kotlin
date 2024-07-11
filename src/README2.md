@@ -22,7 +22,7 @@ class ClassName(
 
 Inheritance
 
-1. Make the parent class open
+Make the parent class open to make it inheritable.
 
 Syntax
 
@@ -43,4 +43,15 @@ class Dog(name: String, age: Int) : Animal(name, age) {
         println("Bow bow bow");
     };
 };
+```
+
+Abstract classes and Functions
+
+This helps in not creating instances for classes.
+```
+abstract class ClassName {
+
+    abstract fun funcName()
+    // The implementation for this should be in sub classes
+}
 ```

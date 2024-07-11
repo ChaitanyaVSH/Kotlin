@@ -1,6 +1,6 @@
 package classes;
 
-open class Animal(
+abstract class Animal(
     private val name: String,
     private val age: Int
 ) {
@@ -16,4 +16,6 @@ open class Animal(
     fun getAge(): Int {
         return this.age;
     }
+
+    abstract fun makeSound()
 };
