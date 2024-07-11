@@ -89,6 +89,11 @@ Using if else as `expression`
 var y = if(x ==2) 2 else 3;
 ```
 
+Using if else in `println()` statements
+```
+println("Entered number is $x and is ${if (isEven(x)) "Even" else "Odd"}");
+```
+
 ---
 
 `when` expression
