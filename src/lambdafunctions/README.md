@@ -24,3 +24,11 @@ fun List<String>.customCount(fn: (String) -> Boolean): Int {
     return count;
 }
 ```
+
+Generics
+
+To make the functions generic to work with multiple types
+```
+fun <T> List<T>.customCount(fn: (T) -> Boolean): Int {
+}
+```
