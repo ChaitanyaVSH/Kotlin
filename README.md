@@ -217,3 +217,42 @@ for (i in 0..shoppingList.size) {
 // Inclusive of both the range values
 
 ```
+
+## Functions
+
+Syntax
+```
+#1
+
+fun name(): ReturnType {
+    functionDefinition
+    return something
+}
+
+#2
+
+fun name(x: Type): ReturnType {
+    functionDefinition
+    return something
+}
+
+#3
+
+fun name(x: Type = defaultValue): ReturnType {
+    functionDefinition
+    return something
+}
+// Default value
+
+#4
+
+fun name(x: Type, y: Type): {
+    functionDefinition
+}
+// Type is required in function arguments
+
+#5
+
+printNumbersInRange(y=100);
+// Named arguments
+```
