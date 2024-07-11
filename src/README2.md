@@ -17,3 +17,30 @@ class ClassName(
     }
 }
 ```
+
+---
+
+Inheritance
+
+1. Make the parent class open
+
+Syntax
+
+```
+open class Animal(
+    private val name: String,
+    private val age: Int
+) {
+----
+----
+----
+}
+
+
+class Dog(name: String, age: Int) : Animal(name, age) {
+
+    fun bark() {
+        println("Bow bow bow");
+    };
+};
+```

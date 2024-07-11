@@ -1,6 +1,6 @@
 package classes;
 
-class Animal(
+open class Animal(
     private val name: String,
     private val age: Int
 ) {
