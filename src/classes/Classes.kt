@@ -11,4 +11,12 @@ fun main() {
 
     // Below instance creation is not possible as it abstract class.
     // val animal = Animal("t", 3);
+
+    // Anonymous or temporary class.
+    val bear = object : Animal("Polar bear", 30) {
+        override fun makeSound() {
+            println("ROARRRRRRR");
+        }
+    }
+    println(bear.makeSound());
 };

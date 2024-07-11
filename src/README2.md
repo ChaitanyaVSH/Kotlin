@@ -55,3 +55,19 @@ abstract class ClassName {
     // The implementation for this should be in sub classes
 }
 ```
+
+Anonymous classes
+
+* Allow us to create instances for abstract classes, this is not exactly an instance.
+* We do not need to explicitly create this as a separate class file
+
+syntax
+
+```
+val bear = object : Animal("Polar bear", 30) {
+    override fun makeSound() {
+        println("ROARRRRRRR");
+    }
+}
+```
+
