@@ -12,8 +12,15 @@ fun printNumbersInRange(x: Int = 10, y: Int) {
     }
 }
 
+// Extension functions on data types and Classes
+fun Int.isOdd(): Boolean {
+    return this%2 == 1;
+}
+
 fun main() {
 //    val x = readln().toInt();
 //    println("Entered number is $x and is ${if (isEven(x)) "Even" else "Odd"}");
-    printNumbersInRange(y=100);
+    val y= 5;
+    println("Y is Odd: " + y.isOdd())
+    //printNumbersInRange(y=100);
 }

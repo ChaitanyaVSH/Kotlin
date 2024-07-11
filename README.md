@@ -255,4 +255,11 @@ fun name(x: Type, y: Type): {
 
 printNumbersInRange(y=100);
 // Named arguments
+
+#6
+
+fun Int.isOdd(): Boolean {
+    return this%2 == 1;
+}
+// Extension functions
 ```
